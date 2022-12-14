@@ -12,7 +12,7 @@ pipeline{
             steps{
                 script{
                     sh """
-                    cd myjavaapp-mohan
+                    cd myjavaapp
                     mvn install
                 }
             }
