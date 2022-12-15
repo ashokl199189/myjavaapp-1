@@ -12,7 +12,7 @@ pipeline{
             steps{
                 script{
                     sh """
-                    cd myjavaapp
+                    cd myjavaapp-mohan
                     mvn cleanpackage
                     """
                 }
