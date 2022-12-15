@@ -18,5 +18,18 @@ pipeline{
                 }
             }
         }
+        stage('run unit test'){
+            stapes{
+                script{
+                    sh """
+                    cd myjavaapp-mohan
+                    mvn test 
+                    """
+                }
+            }
+        }    
+     
+     
     }
+        
 }
