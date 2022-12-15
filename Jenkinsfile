@@ -8,13 +8,9 @@ pipeline{
                 }
             }
         }
-         stage("build code"){
-            steps{
-                script{
-                    sh """
-                    cd myjavaapp-mohan
-                    mvn cleanpackage
-                    """
+          stage('Build') { 
+            steps { 
+               echo 'This is a minimal pipeline.
                 }
             }
          }
