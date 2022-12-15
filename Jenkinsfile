@@ -13,7 +13,8 @@ pipeline{
                 script{
                     sh """
                     cd myjavaapp
-                    mvn install
+                    mvn cleanpackage
+                    """
                 }
             }
          }
